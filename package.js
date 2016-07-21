@@ -19,6 +19,10 @@ Package.onUse(function (api) {
     'nekojira:cloudinary-jquery-upload@0.1.0',
     'aldeed:autoform@5.3.0'
   ], 'client');
+  
+  api.use([
+    'check'
+  ], 'server');
 
   api.addFiles([
     'autoform-cloudinary.html',
